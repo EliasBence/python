@@ -1,0 +1,70 @@
+def okes(d):
+    db=0
+    if d>1000:
+        return ("Érvénytelen szám!")
+    else:
+        for i in range(d,-2,-1):
+
+            if i==777:
+                db=db+1
+            if i==774:
+                db=db+1
+            if i==770:
+                db=db+1
+            if i==747:
+                db=db+1
+            if i==744:
+                db=db+1
+            if i==740:
+                db=db+1
+            if i==707:
+                db=db+1
+            if i==704:
+                db=db+1
+            if i==700:
+                db=db+1
+            if i==477:
+                db=db+1
+            if i==474:
+                db=db+1
+            if i==470:
+                db=db+1
+            if i==447:
+                db=db+1
+            if i==444:
+                db=db+1
+            if i==440:
+                db=db+1
+            if i==407:
+                db=db+1
+            if i==404:
+                db=db+1
+            if i==400:
+                db=db+1
+            if i==77:
+                db=db+1
+            if i==74:
+                db=db+1
+            if i==70:
+                db=db+1
+            if i==47:
+                db=db+1
+            if i==44:
+                db=db+1
+            if i==40:
+                db=db+1
+            if i==7:
+                db=db+1
+            if i==4:
+                db=db+1
+            if i==0:
+                db=db+1
+
+                if d==0 or d==777 or d==774 or d==770 or d==747 or d==744 or d==740 or d==707 or d==704 or d==700 or d==477 or d==474 or d==470 or d==447 or d==444 or d==440 or d==407 or d==404 or d==400 or d==77 or d==74 or d==70 or d==47 or d==44 or d==40 or d==7 or d==4:
+                    db=db-1
+        return db
+
+
+d=int(input(":"))
+print(okes(d))
+
