@@ -1,0 +1,22 @@
+import math
+def ok(n):
+    if n==1 or n==-1:
+        return "1 bárhanyadik hatványa az 1 értéket fogja adni,adj meg egy másik számot."
+    if n==0 or n<0:
+        return "Adj meg más, pozitív egész számot"
+
+    x=0
+    x=int(x)
+    while (n)**x<=1000000:
+        x=x+1
+
+
+
+
+
+    return x-1
+
+
+n=int(input("Adj meg egy pozitív egész számot, kivéve 0 és 1 érték:  "))
+print(ok(n))
+
