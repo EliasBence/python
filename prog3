@@ -1,9 +1,22 @@
 def ok(a,b):
     if a>b:
         a,b=b,a
-    for i in range(a,1,-1):
-        if a%i==0 and b%i==0 and i%2!=0 and i%3!=0 and i%5!=0:
-            return i
-        else:
-            print("Nincs ilyen osztó")
-#das
+    lista=[]
+    for k in range(a,1,-1):
+        if a%k==0 and b%k==0:
+            lista.append(k)
+    print(lista)
+
+    for j in range(len(lista)):
+        if lista[j]> 1:
+
+
+            for i in range(2, lista[j] // 2):
+                if (lista[j] % i) == 0:  # ha lista[j] osztható bármely számmal, ami 2 és lista[j]//2 közé esik, az nem prím
+                    break
+            else:
+                    return lista[j]
+a=int(input(":"))
+b=int(input(":"))
+print(ok(a,b))
+
