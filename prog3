@@ -6,3 +6,4 @@ def ok(a,b):
             return i
         else:
             print("Nincs ilyen osztó")
+#das
