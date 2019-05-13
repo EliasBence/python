@@ -20,4 +20,4 @@ def ok(n):
 n=int(input("Adj meg egy pozitív egész számot, kivéve 0 és 1 érték:  "))
 print(ok(n))
 
-#asd
+#asdasd
