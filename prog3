@@ -20,3 +20,4 @@ a=int(input(":"))
 b=int(input(":"))
 print(ok(a,b))
 
+#ass
